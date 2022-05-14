@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Andre Gama del Otero - Front-end developer</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
     </>
