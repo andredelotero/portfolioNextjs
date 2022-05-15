@@ -4,11 +4,11 @@ export const links = [
     name: "Home",
   },
   {
-    path: "#about",
+    path: "/#about",
     name: "About",
   },
   {
-    path: "#contact",
+    path: "/#contact",
     name: "Contact",
   },
 ];
