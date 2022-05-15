@@ -4,7 +4,7 @@ export const StyledCta = styled.div`
   height: auto;
   width: auto;
   cursor: pointer;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   margin: 4rem auto;
   background-color: #7b63d4;
   display: flex;
