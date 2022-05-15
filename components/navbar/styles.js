@@ -57,9 +57,6 @@ export const StyledMenuItem = styled.li`
   :not(:last-child) {
     margin: 0 2rem 0 0;
   }
-  :hover {
-    border-bottom: 1px solid #8b63d4;
-  }
   a,
   a:visited {
     color: #ffffff;
