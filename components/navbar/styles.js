@@ -6,6 +6,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #8b63d4;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 `;
 
 export const StyledNavbar = styled.nav`
