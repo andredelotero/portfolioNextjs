@@ -16,6 +16,10 @@ export const StyledCta = styled.div`
   font-weight: 700;
   transition: all 350ms;
   box-shadow: 0px 0px 50px 1px #7b63d4;
+  a,
+  a:visited {
+    color: #ffffff;
+  }
 
   :hover {
     box-shadow: 0px 0px 10px 1px #7b63d4;
