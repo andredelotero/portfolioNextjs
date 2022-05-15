@@ -34,8 +34,7 @@ export const Contact = () => {
                   layout="responsive"
                   width={60}
                   height={60}
-                />{" "}
-                ;
+                />
               </a>
             </Link>
           </LogoContainer>
