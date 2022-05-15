@@ -41,7 +41,7 @@ export const About = () => {
         <StyledH2>Projects</StyledH2>
         {projects.map(({ photo, title, description, link }) => {
           return (
-            <ProjectContainer>
+            <ProjectContainer key={title}>
               <Image
                 src={photo}
                 alt={title}
