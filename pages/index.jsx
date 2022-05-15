@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Navbar } from "../components/navbar";
 import { Home } from "../components/home";
 import { About } from "../components/about";
+import { Contact } from "../components/contact";
 export default function Index() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Index() {
       <Navbar />
       <Home />
       <About />
+      <Contact />
     </>
   );
 }

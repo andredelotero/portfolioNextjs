@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { StyledH1, HomeContainer } from "../home/styles";
 
 export const AboutContainer = styled(HomeContainer)`
-  margin-top: 50px;
+  padding-top: 100px;
+  margin-top: 0;
   ::before {
+    padding-top: 100px;
     content: " ABOUT";
   }
 `;
@@ -31,6 +33,7 @@ export const AboutDetail = styled.div`
   width: 90%;
   max-width: 450px;
   margin: 2rem auto 1rem auto;
+
   overflow-x: hidden;
   span {
     font-weight: 400;
@@ -48,7 +51,7 @@ export const ProjectContainer = styled.div`
   border: 1px solid #606060;
   width: 90%;
   max-width: 450px;
-  margin: 2rem auto;
+  margin: 3rem auto 0 auto;
 `;
 
 export const ProjectDetail = styled(AboutDetail)`

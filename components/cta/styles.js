@@ -5,7 +5,7 @@ export const StyledCta = styled.div`
   width: auto;
   cursor: pointer;
   padding: 1rem 2rem;
-  margin: 4rem auto;
+  margin: 4rem auto 0 auto;
   background-color: #7b63d4;
   display: flex;
   align-items: center;
