@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import { CTA } from "../cta";
 import profile from "../../public/perfil.webp";
+import { MainTitle } from "../title";
+
 export const Home = () => {
   return (
     <section id="Home">
