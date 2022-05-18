@@ -16,12 +16,15 @@ export const TitleContainer = styled.div`
     font-size: ${(props) => props.dynamicFontSize}px;
     font-weight: 800;
   }
+  @media screen and (min-width: 768px) {
+    left: 0;
+    justify-content: flex-start;
+  }
 `;
 export const H1Title = styled.h1`
   padding: 0;
   margin: 0;
   padding: 0;
-  text-align: center;
   font-size: ${(props) => props.dynamicFontSize / 1.3}px;
   text-transform: capitalize;
   color: #fff;

@@ -1,4 +1,9 @@
-import { HomeContainer, ImageContainer, StyledH1 } from "./styles";
+import {
+  HomeContainer,
+  ImageContainer,
+  StyledH1,
+  TotalContainer,
+} from "./styles";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { CTA } from "../cta";
@@ -8,9 +13,12 @@ import { MainTitle } from "../title";
 export const Home = () => {
   return (
     <section id="home">
-      <HomeContainer>
-        <MainTitle title="Hello" bgTitle="home" />
-        <StyledH1>I'm André, Front-end developer.</StyledH1>
+      <TotalContainer>
+        <HomeContainer>
+          <MainTitle title="Hello" bgTitle="home" />
+          <StyledH1>I'm André, Front-end developer.</StyledH1>
+          <CTA />
+        </HomeContainer>
         <ImageContainer>
           <Image
             src={profile.src}
@@ -20,8 +28,7 @@ export const Home = () => {
             className={styles.profileImage}
           />
         </ImageContainer>
-        <CTA />
-      </HomeContainer>
+      </TotalContainer>
     </section>
   );
 };

@@ -34,12 +34,14 @@ export const StyledName = styled.p`
   font-size: 18px;
   inline-size: 30%;
   height: 20px;
-  overflow: hidden;
   box-sizing: border-box;
   padding-right: 4rem;
   width: auto;
   display: none;
-  @media screen and (min-width: 375px) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  @media screen and (min-width: 420px) {
     display: inline;
   }
 `;

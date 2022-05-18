@@ -1,13 +1,11 @@
-import Link from "next/link";
+import ReactScroll from "react-scroll";
 
 import { StyledCta } from "./styles";
 
 export const CTA = () => {
   return (
-    <Link href="/#contact">
-      <StyledCta>
-        <a>CONTACT ME</a>
-      </StyledCta>
-    </Link>
+    <ReactScroll.Link to="contact" spy smooth offset={0} duration={500}>
+      <StyledCta>CONTACT ME</StyledCta>
+    </ReactScroll.Link>
   );
 };

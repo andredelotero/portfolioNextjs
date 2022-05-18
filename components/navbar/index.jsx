@@ -5,7 +5,7 @@ import {
   StyledMenu,
   StyledMenuItem,
 } from "./styles";
-import { Link } from "react-scroll";
+import ReactScroll from "react-scroll";
 import { links } from "./links";
 
 export const Navbar = () => {
@@ -18,15 +18,15 @@ export const Navbar = () => {
             const offsetPath = path === "home" ? -130 : 0;
             return (
               <StyledMenuItem key={name}>
-                <Link
+                <ReactScroll.Link
                   to={path}
-                  spy={true}
-                  smooth={true}
+                  spy
+                  smooth
                   offset={offsetPath}
                   duration={500}
                 >
                   {name}
-                </Link>
+                </ReactScroll.Link>
               </StyledMenuItem>
             );
           })}
