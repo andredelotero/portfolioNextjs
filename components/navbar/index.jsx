@@ -5,24 +5,33 @@ import {
   StyledMenu,
   StyledMenuItem,
 } from "./styles";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { links } from "./links";
 
-export const Navbar = () => (
-  <Container>
-    <StyledNavbar>
-      <StyledName>Andre Gama del Otero - Front-end developer</StyledName>
-      <StyledMenu>
-        {links.map(({ name, path }) => {
-          return (
-            <StyledMenuItem key={name}>
-              <Link href={path}>
-                <a>{name}</a>
-              </Link>
-            </StyledMenuItem>
-          );
-        })}
-      </StyledMenu>
-    </StyledNavbar>
-  </Container>
-);
+export const Navbar = () => {
+  return (
+    <Container>
+      <StyledNavbar>
+        <StyledName>Andre Gama del Otero - Front-end developer</StyledName>
+        <StyledMenu>
+          {links.map(({ name, path }) => {
+            const offsetPath = path === "home" ? -130 : 0;
+            return (
+              <StyledMenuItem key={name}>
+                <Link
+                  to={path}
+                  spy={true}
+                  smooth={true}
+                  offset={offsetPath}
+                  duration={500}
+                >
+                  {name}
+                </Link>
+              </StyledMenuItem>
+            );
+          })}
+        </StyledMenu>
+      </StyledNavbar>
+    </Container>
+  );
+};

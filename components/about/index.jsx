@@ -5,10 +5,10 @@ import {
   StyledH2,
   StyledH2Left,
   AboutDetail,
-  AboutH1,
   ProjectContainer,
   ProjectDetail,
 } from "./styles";
+import { MainTitle } from "../title";
 
 import { projects } from "./projects";
 
@@ -16,7 +16,7 @@ export const About = () => {
   return (
     <section id="about">
       <AboutContainer>
-        <AboutH1>About me.</AboutH1>
+        <MainTitle title="About me" bgTitle="about" />
         <StyledH2>Who I am, my skills, what I do</StyledH2>
         <AboutDetail>
           <StyledH2Left>Me</StyledH2Left>

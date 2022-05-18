@@ -1,20 +1,19 @@
 import styled from "styled-components";
+
 export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   position: relative;
-  height: 26;
-  border: 1px solid red;
+  height: auto;
   ::before {
-    content: "${(props) => props.title}";
+    content: "${(props) => props.backgroundTitle}";
     text-transform: uppercase;
     color: #fff;
     position: absolute;
-    top: -1vw;
-    opacity: 0.05;
-    font-size: 26vw;
+    opacity: 0.04;
+    font-size: ${(props) => props.dynamicFontSize}px;
     font-weight: 800;
   }
 `;
@@ -23,7 +22,7 @@ export const H1Title = styled.h1`
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 24vw;
+  font-size: ${(props) => props.dynamicFontSize / 1.3}px;
   text-transform: capitalize;
   color: #fff;
 `;

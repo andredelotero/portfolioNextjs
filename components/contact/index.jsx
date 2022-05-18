@@ -1,16 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { ContactContainer, LogosContainer, LogoContainer } from "./styles";
-import { AboutH1, StyledH2 } from "../about/styles";
+import { LogosContainer, LogoContainer } from "./styles";
+import { AboutContainer, StyledH2 } from "../about/styles";
 
 import { contacts } from "./contacts";
+import { MainTitle } from "../title";
 
 export const Contact = () => {
   return (
     <section id="contact">
-      <ContactContainer>
-        <AboutH1>Contact</AboutH1>
+      <AboutContainer>
+        <MainTitle title="Contact" bgTitle="contact" />
         <StyledH2>Let's get in touch</StyledH2>
         <LogosContainer>
           {contacts.map(({ photo, alt, link }) => {
@@ -31,7 +32,7 @@ export const Contact = () => {
             );
           })}
         </LogosContainer>
-      </ContactContainer>
+      </AboutContainer>
     </section>
   );
 };

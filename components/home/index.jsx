@@ -7,16 +7,15 @@ import { MainTitle } from "../title";
 
 export const Home = () => {
   return (
-    <section id="Home">
+    <section id="home">
       <HomeContainer>
-        <StyledH1>
-          <span>Hello.</span>I'm André, Front-end developer.
-        </StyledH1>
+        <MainTitle title="Hello" bgTitle="home" />
+        <StyledH1>I'm André, Front-end developer.</StyledH1>
         <ImageContainer>
           <Image
             src={profile.src}
-            width={250}
-            height={250}
+            width={656}
+            height={656}
             layout="responsive"
             className={styles.profileImage}
           />

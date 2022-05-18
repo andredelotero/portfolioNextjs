@@ -8,6 +8,7 @@ export const Container = styled.div`
   border-bottom: 1px solid #8b63d4;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 2;
 `;
 

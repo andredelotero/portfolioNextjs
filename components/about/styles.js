@@ -1,17 +1,9 @@
 import styled from "styled-components";
-import { StyledH1, HomeContainer } from "../home/styles";
+import { HomeContainer } from "../home/styles";
 
 export const AboutContainer = styled(HomeContainer)`
   padding-top: 100px;
   margin-top: 0;
-  ::before {
-    padding-top: 100px;
-    content: " ABOUT";
-  }
-`;
-
-export const AboutH1 = styled(StyledH1)`
-  margin-bottom: 1rem;
 `;
 
 export const StyledH2 = styled.h2`
