@@ -21,6 +21,7 @@ export const Home = () => {
         </HomeContainer>
         <ImageContainer>
           <Image
+            priority
             src={profile.src}
             width={656}
             height={656}

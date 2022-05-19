@@ -59,6 +59,7 @@ export const StyledMenuItem = styled.li`
   padding: 0.5rem 0;
   border-bottom: 1px solid transparent;
   transition: border 250ms linear;
+  user-select: none;
   :not(:last-child) {
     margin: 0 2rem 0 0;
   }

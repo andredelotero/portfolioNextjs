@@ -49,12 +49,12 @@ export const StyledH1 = styled.h1`
 `;
 
 export const ImageContainer = styled.div`
-  width: 250px;
-  height: 250px;
-  display: none;
-  flex: 1;
+  width: 0;
+  height: 0;
   @media screen and (min-width: 768px) {
-    display: block;
+    width: 250px;
+    height: 250px;
+    flex: 1;
     width: 30%;
     height: 30%;
   }
