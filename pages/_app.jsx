@@ -1,3 +1,4 @@
+import { appWithTranslation } from "next-i18next";
 import "./styles.css";
 
 export function reportWebVitals(metric) {
@@ -19,6 +20,8 @@ export function reportWebVitals(metric) {
   }
 }
 
-export default function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
-}
+};
+
+export default appWithTranslation(MyApp);

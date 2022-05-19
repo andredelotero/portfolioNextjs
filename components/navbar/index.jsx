@@ -1,3 +1,5 @@
+import ReactScroll from "react-scroll";
+import { useTranslation } from "next-i18next";
 import {
   Container,
   StyledNavbar,
@@ -5,14 +7,14 @@ import {
   StyledMenu,
   StyledMenuItem,
 } from "./styles";
-import ReactScroll from "react-scroll";
 import { links } from "./links";
 
 export const Navbar = () => {
+  const { t } = useTranslation("navbar");
   return (
     <Container>
       <StyledNavbar>
-        <StyledName>Andre Gama del Otero - Front-end developer</StyledName>
+        <StyledName>Andre Gama del Otero - {t("frontEnd")}</StyledName>
         <StyledMenu>
           {links.map(({ name, path }) => {
             const offsetPath = path === "home" ? -130 : 0;
@@ -25,7 +27,7 @@ export const Navbar = () => {
                   offset={offsetPath}
                   duration={500}
                 >
-                  {name}
+                  <span>{t(name)}</span>
                 </ReactScroll.Link>
               </StyledMenuItem>
             );

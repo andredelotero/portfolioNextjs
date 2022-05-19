@@ -1,0 +1,19 @@
+{
+  "title": "About me",
+  "subTitle": "about",
+  "whoIAm": "Who I am, my skills, what I do",
+  "me": "Me",
+  "intro": "I'm a Front-End developer from Brazil, living in Mar del Plata, Argentina.",
+  "description": "I care about site speed, user experience, cross browser compatibility, and of course, responsiveness (I always start projects in a mobile-first approach)",
+  "skills": "Skills and tools",
+  "skillsList": "HTML, CSS, JavaScript, React, NextJS, JSX, Jquery, Bootstrap, Sass, Tailwind, Styled Components, VSCode, Git Github, Figma, Trello, Slack.",
+  "projects": "Projects",
+  "eCommerceJsTitle": "Ecommerce JS",
+  "eCommerceJsDescription": "The second project I did during my Frontend career. Main tools/languajes: HTML, Javascript and SASS",
+  "eCommerceReactTitle": "Ecommerce React",
+  "eCommerceReactDescription": "Third and last project during my Frontend Career. Main tools/languages: HTML, React, JSX, SASS and Styled Components",
+  "marsTitle": "Mars Photos",
+  "marsDescription": "Project build using React, JSX, Styled Components and fetching data from Nasa's open api Mars Rovers",
+  "autocentroTitle": "Autocentro",
+  "autocentroDescription": "Real project for local business Autocentro. Project entirely made using HTML and SASS"
+}

@@ -1,14 +1,14 @@
 export const links = [
   {
     path: "home",
-    name: "Home",
+    name: "home",
   },
   {
     path: "about",
-    name: "About",
+    name: "about",
   },
   {
     path: "contact",
-    name: "Contact",
+    name: "contact",
   },
 ];

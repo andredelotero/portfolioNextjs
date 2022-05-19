@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
 import {
   AboutContainer,
   ContentContainer,
@@ -17,49 +18,39 @@ import { MainTitle } from "../title";
 import { projects } from "./projects";
 
 export const About = () => {
+  const { t } = useTranslation("about");
   return (
     <section id="about">
       <AboutContainer>
-        <MainTitle title="About me" bgTitle="about" />
-        <StyledH2>Who I am, my skills, what I do</StyledH2>
+        <MainTitle title={t("title")} bgTitle={t("subTitle")} />
+        <StyledH2>{t("whoIAm")}</StyledH2>
         <ContentContainer>
           <AboutDetail>
-            <StyledH2Left>Me</StyledH2Left>
-            <span>
-              I'm a Front-end developer from Brazil, living in Mar del Plata,
-              Argentina.
-            </span>
-            <span>
-              I care about site speed, user experience, cross browser
-              compatibility, and of course, responsiveness (I always start
-              projects in a mobile-first approach)
-            </span>
+            <StyledH2Left>{t("me")}</StyledH2Left>
+            <span>{t("intro")}</span>
+            <span>{t("description")}</span>
           </AboutDetail>
           <AboutDetail>
-            <StyledH2Left>Skills and tools</StyledH2Left>
-            <span>
-              HTML, CSS, JavaScript, React, NextJS, JSX, Jquery, Bootstrap,
-              Sass, Tailwind, Styled Components, VSCode, Git / Github, Figma,
-              Trello, Slack.
-            </span>
+            <StyledH2Left>{t("skills")}</StyledH2Left>
+            <span>{t("skillsList")}</span>
           </AboutDetail>
         </ContentContainer>
 
-        <StyledH2>Projects</StyledH2>
+        <StyledH2>{t("projects")}</StyledH2>
         <ProjectsContainer>
           {projects.map(({ photo, title, description, link }) => {
             return (
               <ProjectContainer key={title}>
                 <Image
                   src={photo}
-                  alt={title}
+                  alt={t(title)}
                   layout="responsive"
                   width={450}
                   height={228}
                 />
                 <ProjectDetail>
-                  <ProjectTitle>{title}</ProjectTitle>
-                  <ProjectDescription>{description}</ProjectDescription>
+                  <ProjectTitle>{t(title)}</ProjectTitle>
+                  <ProjectDescription>{t(description)}</ProjectDescription>
                   <span>
                     <Link href={link}>
                       <a target="_blank">{link}</a>

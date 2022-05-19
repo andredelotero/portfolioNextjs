@@ -66,4 +66,7 @@ export const StyledMenuItem = styled.li`
   :hover {
     border-bottom: 1px solid #8b63d4;
   }
+  span {
+    white-space: nowrap;
+  }
 `;

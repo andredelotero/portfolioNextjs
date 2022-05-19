@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Navbar } from "../components/navbar";
 import { Home } from "../components/home";
 import { About } from "../components/about";
@@ -21,4 +22,17 @@ export default function Index() {
       <Contact />
     </>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "about",
+        "contact",
+        "home",
+        "navbar",
+      ])),
+    },
+  };
 }
