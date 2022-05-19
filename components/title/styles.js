@@ -13,8 +13,11 @@ export const TitleContainer = styled.div`
     color: #fff;
     position: absolute;
     opacity: 0.04;
-    font-size: ${(props) => props.dynamicFontSize}px;
+    font-size: calc(1.7rem + 10vw);
     font-weight: 800;
+    @media screen and (min-width: 1440px) {
+      font-size: calc(10rem);
+    }
   }
   @media screen and (min-width: 768px) {
     left: 0;
@@ -25,7 +28,10 @@ export const H1Title = styled.h1`
   padding: 0;
   margin: 0;
   padding: 0;
-  font-size: ${(props) => props.dynamicFontSize / 1.3}px;
+  font-size: calc(1rem + 6vw);
   text-transform: capitalize;
   color: #fff;
+  @media screen and (min-width: 1440px) {
+    font-size: calc(7rem);
+  }
 `;
