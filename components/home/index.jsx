@@ -27,6 +27,7 @@ export const Home = () => {
             height={656}
             layout="responsive"
             className={styles.profileImage}
+            alt="My profile picture"
           />
         </ImageContainer>
       </TotalContainer>
