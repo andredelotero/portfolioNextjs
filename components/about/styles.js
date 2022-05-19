@@ -92,10 +92,11 @@ export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
     max-width: 1300px;
     justify-content: space-between;
   }

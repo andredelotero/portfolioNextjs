@@ -29,8 +29,8 @@ export const HomeContainer = styled.div`
 export const StyledH1 = styled.h1`
   margin: 0 auto;
   padding: 0;
-  font-size: 3.5rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 4rem;
   color: #ffffff;
   width: 340px;
   text-align: center;
@@ -38,13 +38,13 @@ export const StyledH1 = styled.h1`
   @media screen and (min-width: 768px) {
     text-align: left;
     margin-left: 0;
-    font-size: 10vw;
-    line-height: 12vw;
+    font-size: 9vw;
+    line-height: 11vw;
     width: 85%;
   }
   @media screen and (min-width: 1440px) {
-    font-size: 9rem;
-    line-height: 11rem;
+    font-size: 8rem;
+    line-height: 9rem;
   }
 `;
 
