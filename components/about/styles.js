@@ -5,6 +5,7 @@ export const AboutContainer = styled(HomeContainer)`
   padding-top: 100px;
   margin-top: 0;
   @media screen and (min-width: 768px) {
+    box-sizing: border-box;
     padding-inline: 2rem;
   }
 `;
@@ -49,7 +50,7 @@ export const ContentContainer = styled.div`
   max-width: 450px;
   @media screen and (min-width: 768px) {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1300px;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
