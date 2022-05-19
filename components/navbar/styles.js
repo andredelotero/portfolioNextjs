@@ -57,11 +57,12 @@ export const StyledMenuItem = styled.li`
   font-size: 18px;
   box-sizing: border-box;
   padding: 0.5rem 0;
+  border-bottom: 1px solid transparent;
+  transition: border 250ms linear;
   :not(:last-child) {
     margin: 0 2rem 0 0;
   }
-  a,
-  a:visited {
-    color: #ffffff;
+  :hover {
+    border-bottom: 1px solid #8b63d4;
   }
 `;

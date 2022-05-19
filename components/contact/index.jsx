@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { LogosContainer, LogoContainer } from "./styles";
-import { AboutContainer, StyledH2 } from "../about/styles";
+import { ContactH2, LogosContainer, LogoContainer } from "./styles";
+import { AboutContainer } from "../about/styles";
 
 import { contacts } from "./contacts";
 import { MainTitle } from "../title";
@@ -12,7 +12,7 @@ export const Contact = () => {
     <section id="contact">
       <AboutContainer>
         <MainTitle title="Contact" bgTitle="contact" />
-        <StyledH2>Let's get in touch</StyledH2>
+        <ContactH2>Let's get in touch</ContactH2>
         <LogosContainer>
           {contacts.map(({ photo, alt, link }) => {
             return (
