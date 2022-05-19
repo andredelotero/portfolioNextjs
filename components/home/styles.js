@@ -20,7 +20,6 @@ export const HomeContainer = styled.div`
   width: 100%;
   height: auto;
   max-width: 1440px;
-
   @media screen and (min-width: 768px) {
     flex: 2;
     align-items: flex-start;
