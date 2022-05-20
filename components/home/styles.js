@@ -35,6 +35,7 @@ export const StyledH1 = styled.h1`
   width: 340px;
   text-align: center;
   z-index: 1;
+  font-weight: 500;
   @media screen and (min-width: 768px) {
     text-align: left;
     margin-left: 0;

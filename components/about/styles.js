@@ -18,6 +18,7 @@ export const StyledH2 = styled.h2`
   font-size: 1rem;
   line-height: 2rem;
   width: auto;
+  font-weight: 500;
   @media screen and (min-width: 768px) {
     text-align: left;
     margin-left: 0;
@@ -120,6 +121,9 @@ export const ProjectDetail = styled(AboutDetail)`
     :hover {
       border-bottom: 1px solid #8b63d4;
     }
+    a {
+      font-weight: 300;
+    }
   }
   @media screen and (min-width: 1024px) {
     span {
@@ -132,6 +136,7 @@ export const ProjectDetail = styled(AboutDetail)`
 export const ProjectTitle = styled.h3`
   margin: 1.5rem auto;
   font-size: 1.6rem;
+  font-weight: 500;
 `;
 
 export const ProjectDescription = styled.p`

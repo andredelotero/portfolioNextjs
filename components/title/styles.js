@@ -14,7 +14,7 @@ export const TitleContainer = styled.div`
     position: absolute;
     opacity: 0.04;
     font-size: calc(1.7rem + 10vw);
-    font-weight: 800;
+    font-weight: 500;
     @media screen and (min-width: 1440px) {
       font-size: calc(10rem);
     }
@@ -31,6 +31,7 @@ export const H1Title = styled.h1`
   font-size: calc(1rem + 6vw);
   text-transform: capitalize;
   color: #fff;
+  font-weight: 500;
   @media screen and (min-width: 1440px) {
     font-size: calc(7rem);
   }

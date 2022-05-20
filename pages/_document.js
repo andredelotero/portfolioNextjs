@@ -32,8 +32,46 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
+            href="/fonts/montserrat-v24-latin-300.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="/fonts/montserrat-v24-latin-regular.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="/fonts/montserrat-v24-latin-500.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="/fonts/montserrat-v24-latin-600.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="/fonts/montserrat-v24-latin-700.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="/fonts/montserrat-v24-latin-800.woff"
+            rel="preload"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
           />
         </Head>
         <body>
