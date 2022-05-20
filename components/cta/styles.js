@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledCta = styled.div`
   width: 230px;
   height: 60px;
+  cursor: pointer;
   margin: 4rem auto 0 auto;
   background-color: #7b63d4;
   display: flex;
