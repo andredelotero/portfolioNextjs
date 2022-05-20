@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 import { ContactH2, LogosContainer, LogoContainer } from "./styles";
 import { AboutContainer } from "../about/styles";
@@ -8,11 +9,12 @@ import { contacts } from "./contacts";
 import { MainTitle } from "../title";
 
 export const Contact = () => {
+  const { t } = useTranslation("contact");
   return (
     <section id="contact">
       <AboutContainer>
-        <MainTitle title="Contact" bgTitle="contact" />
-        <ContactH2>Let's get in touch</ContactH2>
+        <MainTitle title={t("title")} bgTitle={t("subTitle")} />
+        <ContactH2>{t("letsGet")}</ContactH2>
         <LogosContainer>
           {contacts.map(({ photo, alt, link }) => {
             return (
@@ -21,7 +23,7 @@ export const Contact = () => {
                   <a target="_blank">
                     <Image
                       src={photo}
-                      alt={alt}
+                      alt={t(alt)}
                       layout="responsive"
                       width={60}
                       height={60}

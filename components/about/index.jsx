@@ -33,6 +33,8 @@ export const About = () => {
           <AboutDetail>
             <StyledH2Left>{t("skills")}</StyledH2Left>
             <span>{t("skillsList")}</span>
+            <StyledH2Left>{t("thisSite")}</StyledH2Left>
+            <span>{t("thisSiteDescription")}</span>
           </AboutDetail>
         </ContentContainer>
 

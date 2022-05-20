@@ -28,10 +28,11 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, [
-        "about",
-        "contact",
-        "home",
         "navbar",
+        "home",
+        "about",
+        "common",
+        "contact",
       ])),
     },
   };

@@ -13,7 +13,7 @@ export const TitleContainer = styled.div`
     color: #fff;
     position: absolute;
     opacity: 0.04;
-    font-size: calc(1.7rem + 10vw);
+    font-size: calc(1.5rem + 10vw);
     font-weight: 500;
     @media screen and (min-width: 1440px) {
       font-size: calc(10rem);

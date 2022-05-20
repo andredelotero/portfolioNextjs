@@ -4,13 +4,12 @@ import GithubLogo from "../../public/github.png";
 export const contacts = [
   {
     photo: LinkedinLogo,
-    alt: "My Linkedin profile",
+    alt: "myLinkedin",
     link: "https://www.linkedin.com/in/andredelotero/",
   },
   {
     photo: GithubLogo,
-    title: "Ecommerce React",
-    alt: "My Github profile",
+    alt: "myGithub",
     link: "https://github.com/andredelotero",
   },
 ];

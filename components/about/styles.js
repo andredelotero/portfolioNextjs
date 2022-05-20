@@ -38,9 +38,9 @@ export const StyledH2Left = styled(StyledH2)`
   text-align: left;
   @media screen and (min-width: 768px) {
     text-align: left;
-    margin: 0 auto 0 0;
-    font-size: 2.8rem;
-    line-height: 5rem;
+    margin: 1.2rem auto 0 0;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
   }
 `;
 
@@ -68,7 +68,7 @@ export const AboutDetail = styled.div`
     font-weight: 400;
     line-height: 1.5rem;
     display: block;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0.5rem;
   }
   a,
   a:visited {
@@ -78,14 +78,14 @@ export const AboutDetail = styled.div`
     max-width: 45%;
     margin: 1rem auto;
     span {
-      font-size: 1.2rem;
-      line-height: 2.2rem;
+      font-size: 1rem;
+      line-height: 1.6rem;
     }
   }
   @media screen and (min-width: 1024px) {
     span {
-      font-size: 1.5rem;
-      line-height: 2.5rem;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
     }
   }
 `;
