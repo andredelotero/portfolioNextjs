@@ -7,42 +7,42 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/montserrat-v24-latin-300.woff') format('woff');
     font-style: normal;
     font-weight: 300;
-    font-display: swap;
+    font-display: optional;
   }
     @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-v24-latin-regular.woff') format('woff');
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
   }
     @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-v24-latin-500.woff') format('woff');
     font-style: normal;
     font-weight: 500;
-    font-display: swap;
+    font-display: optional;
   }
     @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-v24-latin-600.woff') format('woff');
     font-style: normal;
     font-weight: 600;
-    font-display: swap;
+    font-display: optional;
   }
   @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-v24-latin-700.woff') format('woff');
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
+    font-display: optional;
   }
   @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-v24-latin-800.woff') format('woff');
     font-style: normal;
     font-weight: 800;
-    font-display: swap;
+    font-display: optional;
   }
 `;
 
