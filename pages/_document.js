@@ -33,28 +33,24 @@ export default class MyDocument extends Document {
         <Head>
           <link
             href="/fonts/montserrat-v24-latin-300.woff"
-            rel="preload"
             as="font"
             type="font/woff"
             crossOrigin="anonymous"
           />
           <link
             href="/fonts/montserrat-v24-latin-regular.woff"
-            rel="preload"
             as="font"
             type="font/woff"
             crossOrigin="anonymous"
           />
           <link
             href="/fonts/montserrat-v24-latin-500.woff"
-            rel="preload"
             as="font"
             type="font/woff"
             crossOrigin="anonymous"
           />
           <link
             href="/fonts/montserrat-v24-latin-700.woff"
-            rel="preload"
             as="font"
             type="font/woff"
             crossOrigin="anonymous"

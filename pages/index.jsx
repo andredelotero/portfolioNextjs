@@ -1,9 +1,10 @@
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { Navbar } from "../components/navbar";
-import { Home } from "../components/home";
-import { About } from "../components/about";
-import { Contact } from "../components/contact";
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("../components/navbar"));
+const Home = dynamic(() => import("../components/home"));
+const About = dynamic(() => import("../components/about"));
+const Contact = dynamic(() => import("../components/contact"));
 
 export default function Index() {
   return (

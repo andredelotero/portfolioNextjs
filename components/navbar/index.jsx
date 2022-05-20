@@ -9,7 +9,7 @@ import {
 } from "./styles";
 import { links } from "./links";
 
-export const Navbar = () => {
+const Navbar = () => {
   const { t } = useTranslation("navbar");
   return (
     <Container>
@@ -37,3 +37,5 @@ export const Navbar = () => {
     </Container>
   );
 };
+
+export default Navbar;

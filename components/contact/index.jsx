@@ -8,7 +8,7 @@ import { AboutContainer } from "../about/styles";
 import { contacts } from "./contacts";
 import { MainTitle } from "../title";
 
-export const Contact = () => {
+const Contact = () => {
   const { t } = useTranslation("contact");
   return (
     <section id="contact">
@@ -38,3 +38,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+export default Contact;

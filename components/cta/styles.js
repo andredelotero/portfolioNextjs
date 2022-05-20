@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const StyledCta = styled.div`
-  height: auto;
-  width: auto;
-  cursor: pointer;
-  padding: 1rem 2rem;
+  width: 230px;
+  height: 60px;
   margin: 4rem auto 0 auto;
   background-color: #7b63d4;
   display: flex;

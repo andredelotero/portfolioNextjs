@@ -11,7 +11,7 @@ import { CTA } from "../cta";
 import profile from "../../public/perfil.webp";
 import { MainTitle } from "../title";
 
-export const Home = () => {
+const Home = () => {
   const { t } = useTranslation("home");
   return (
     <section id="home">
@@ -35,3 +35,5 @@ export const Home = () => {
     </section>
   );
 };
+
+export default Home;

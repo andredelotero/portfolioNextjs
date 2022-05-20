@@ -17,7 +17,7 @@ import { MainTitle } from "../title";
 
 import { projects } from "./projects";
 
-export const About = () => {
+const About = () => {
   const { t } = useTranslation("about");
   return (
     <section id="about">
@@ -67,3 +67,5 @@ export const About = () => {
     </section>
   );
 };
+
+export default About;
