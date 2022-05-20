@@ -53,21 +53,7 @@ export default class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <link
-            href="/fonts/montserrat-v24-latin-600.woff"
-            rel="preload"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
             href="/fonts/montserrat-v24-latin-700.woff"
-            rel="preload"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
-            href="/fonts/montserrat-v24-latin-800.woff"
             rel="preload"
             as="font"
             type="font/woff"
