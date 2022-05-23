@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/montserrat-v24-latin-300.woff') format('woff');
     font-style: normal;
     font-weight: 300;
-    font-display: block;
+    font-display: swap;
   }
     @font-face {
     font-family: 'Montserrat';
@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/montserrat-v24-latin-700.woff') format('woff');
     font-style: normal;
     font-weight: 700;
-    font-display: block;
+    font-display: swap;
   }
 `;
 
