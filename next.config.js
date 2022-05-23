@@ -6,7 +6,7 @@ module.exports = {
     return [
       {
         source: "/:all*(svg|jpg|png|woff)",
-        locale: false,
+        locale: true,
         headers: [
           {
             key: "Cache-Control",
