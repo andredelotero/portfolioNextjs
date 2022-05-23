@@ -30,7 +30,8 @@ export const StyledH1 = styled.h1`
   margin: 0 auto;
   padding: 0;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 3.7rem;
+  letter-spacing: -1px;
   color: #ffffff;
   width: 340px;
   text-align: center;
@@ -40,8 +41,12 @@ export const StyledH1 = styled.h1`
     text-align: left;
     margin-left: 0;
     font-size: 9vw;
-    line-height: 11vw;
+    line-height: 10vw;
     width: 85%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    letter-spacing: -2px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 8rem;

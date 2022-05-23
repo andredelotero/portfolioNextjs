@@ -56,7 +56,7 @@ export const StyledMenuItem = styled.li`
   cursor: pointer;
   font-size: 18px;
   box-sizing: border-box;
-  padding: 0.5rem 0;
+  padding: 0;
   border-bottom: 1px solid transparent;
   transition: border 250ms linear;
   user-select: none;

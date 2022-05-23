@@ -27,6 +27,7 @@ export const StyledH2 = styled.h2`
   }
   @media screen and (min-width: 1024px) {
     margin-top: 4rem;
+    letter-spacing: -1px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 4rem;
