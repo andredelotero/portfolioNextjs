@@ -27,6 +27,7 @@ const Home = () => {
             width={656}
             height={656}
             layout="responsive"
+            priority={false}
             className={styles.profileImage}
             alt={t("profilePic")}
           />
