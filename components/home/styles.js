@@ -31,7 +31,7 @@ export const StyledH1 = styled.h1`
   padding: 0;
   font-size: 3rem;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   color: #ffffff;
   width: 340px;
   text-align: center;
