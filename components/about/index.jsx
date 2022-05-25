@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useTranslation } from "next-i18next";
+import Image from 'next/image'
+import Link from 'next/link'
+import { useTranslation } from 'next-i18next'
 import {
   AboutContainer,
   ContentContainer,
@@ -12,33 +12,33 @@ import {
   ProjectsContainer,
   ProjectTitle,
   ProjectDescription,
-} from "./styles";
-import { MainTitle } from "../title";
+} from './styles'
+import { MainTitle } from '../title'
 
-import { projects } from "./projects";
+import { projects } from './projects'
 
 const About = () => {
-  const { t } = useTranslation("about");
+  const { t } = useTranslation('about')
   return (
     <section id="about">
       <AboutContainer>
-        <MainTitle title={t("title")} bgTitle={t("subTitle")} />
-        <StyledH2>{t("whoIAm")}</StyledH2>
+        <MainTitle title={t('title')} bgTitle={t('subTitle')} />
+        <StyledH2>{t('whoIAm')}</StyledH2>
         <ContentContainer>
           <AboutDetail>
-            <StyledH2Left>{t("me")}</StyledH2Left>
-            <span>{t("intro")}</span>
-            <span>{t("description")}</span>
+            <StyledH2Left>{t('me')}</StyledH2Left>
+            <span>{t('intro')}</span>
+            <span>{t('description')}</span>
           </AboutDetail>
           <AboutDetail>
-            <StyledH2Left>{t("skills")}</StyledH2Left>
-            <span>{t("skillsList")}</span>
-            <StyledH2Left>{t("thisSite")}</StyledH2Left>
-            <span>{t("thisSiteDescription")}</span>
+            <StyledH2Left>{t('skills')}</StyledH2Left>
+            <span>{t('skillsList')}</span>
+            <StyledH2Left>{t('thisSite')}</StyledH2Left>
+            <span>{t('thisSiteDescription')}</span>
           </AboutDetail>
         </ContentContainer>
 
-        <StyledH2>{t("projects")}</StyledH2>
+        <StyledH2>{t('projects')}</StyledH2>
         <ProjectsContainer>
           {projects.map(({ photo, title, description, link }) => {
             return (
@@ -60,12 +60,12 @@ const About = () => {
                   </span>
                 </ProjectDetail>
               </ProjectContainer>
-            );
+            )
           })}
         </ProjectsContainer>
       </AboutContainer>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

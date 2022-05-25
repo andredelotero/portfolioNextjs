@@ -1,24 +1,24 @@
-import Image from "next/image";
-import { useTranslation } from "next-i18next";
+import Image from 'next/image'
+import { useTranslation } from 'next-i18next'
 import {
   HomeContainer,
   ImageContainer,
   StyledH1,
   TotalContainer,
-} from "./styles";
-import styles from "./styles.module.css";
-import { CTA } from "../cta";
-import profile from "../../public/perfil.webp";
-import { MainTitle } from "../title";
+} from './styles'
+import styles from './styles.module.css'
+import { CTA } from '../cta'
+import profile from '../../public/perfil.webp'
+import { MainTitle } from '../title'
 
 const Home = () => {
-  const { t } = useTranslation("home");
+  const { t } = useTranslation('home')
   return (
     <section id="home">
       <TotalContainer>
         <HomeContainer>
-          <MainTitle title={t("title")} bgTitle={t("subTitle")} />
-          <StyledH1>{t("iAm")}</StyledH1>
+          <MainTitle title={t('title')} bgTitle={t('subTitle')} />
+          <StyledH1>{t('iAm')}</StyledH1>
           <CTA />
         </HomeContainer>
         <ImageContainer>
@@ -29,12 +29,12 @@ const Home = () => {
             layout="responsive"
             priority={false}
             className={styles.profileImage}
-            alt={t("profilePic")}
+            alt={t('profilePic')}
           />
         </ImageContainer>
       </TotalContainer>
     </section>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

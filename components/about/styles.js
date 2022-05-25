@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { HomeContainer } from "../home/styles";
+import styled from 'styled-components'
+import { HomeContainer } from '../home/styles'
 
 export const AboutContainer = styled(HomeContainer)`
   padding-top: 100px;
@@ -8,7 +8,7 @@ export const AboutContainer = styled(HomeContainer)`
     box-sizing: border-box;
     padding-inline: 2rem;
   }
-`;
+`
 
 export const StyledH2 = styled.h2`
   margin: 2rem auto 0 auto;
@@ -33,7 +33,7 @@ export const StyledH2 = styled.h2`
     font-size: 4rem;
     line-height: 5rem;
   }
-`;
+`
 
 export const StyledH2Left = styled(StyledH2)`
   text-align: left;
@@ -43,7 +43,7 @@ export const StyledH2Left = styled(StyledH2)`
     font-size: 1.8rem;
     line-height: 2.2rem;
   }
-`;
+`
 
 export const ContentContainer = styled.div`
   display: flex;
@@ -57,7 +57,7 @@ export const ContentContainer = styled.div`
     flex-direction: row;
     justify-content: space-between;
   }
-`;
+`
 
 export const AboutDetail = styled.div`
   color: #ffffff;
@@ -67,9 +67,9 @@ export const AboutDetail = styled.div`
   overflow-x: hidden;
   span {
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 1.5;
     display: block;
-    margin: 1rem 0 0 0.5rem;
+    margin: 1rem 0 0rem 0.5rem;
   }
   a,
   a:visited {
@@ -89,7 +89,7 @@ export const AboutDetail = styled.div`
       line-height: 1.8rem;
     }
   }
-`;
+`
 export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -102,14 +102,15 @@ export const ProjectsContainer = styled.div`
     max-width: 1300px;
     justify-content: space-between;
   }
-`;
+`
 
 export const ProjectContainer = styled.div`
   border: 1px solid #606060;
   width: 90%;
   max-width: 450px;
   margin: 3rem auto 0 auto;
-`;
+  padding-bottom: 1rem;
+`
 
 export const ProjectDetail = styled(AboutDetail)`
   text-align: center;
@@ -132,16 +133,16 @@ export const ProjectDetail = styled(AboutDetail)`
       line-height: 2rem;
     }
   }
-`;
+`
 
 export const ProjectTitle = styled.h3`
   margin: 1.5rem auto;
   font-size: 1.6rem;
   font-weight: 500;
-`;
+`
 
 export const ProjectDescription = styled.p`
   margin: 1rem auto 2rem auto;
   font-size: 1rem;
   line-height: 1.6rem;
-`;
+`

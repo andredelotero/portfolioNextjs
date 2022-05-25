@@ -1,6 +1,6 @@
-import { appWithTranslation } from "next-i18next";
-import { createGlobalStyle } from "styled-components";
-import "./styles.css";
+import { appWithTranslation } from 'next-i18next'
+import { createGlobalStyle } from 'styled-components'
+import './styles.css'
 const GlobalStyle = createGlobalStyle`
     @font-face {
     font-family: 'Montserrat';
@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 700;
     font-display: swap;
   }
-`;
+`
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -39,7 +39,7 @@ const MyApp = ({ Component, pageProps }) => {
       <GlobalStyle />
       <Component {...pageProps} />;
     </>
-  );
-};
+  )
+}
 
-export default appWithTranslation(MyApp);
+export default appWithTranslation(MyApp)

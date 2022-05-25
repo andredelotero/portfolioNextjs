@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ export const TitleContainer = styled.div`
   position: relative;
   height: auto;
   ::before {
-    content: "${(props) => props.backgroundTitle}";
+    content: '${(props) => props.backgroundTitle}';
     text-transform: uppercase;
     color: #fff;
     position: absolute;
@@ -23,7 +23,7 @@ export const TitleContainer = styled.div`
     left: 0;
     justify-content: flex-start;
   }
-`;
+`
 export const H1Title = styled.h1`
   padding: 0;
   margin: 0;
@@ -35,4 +35,4 @@ export const H1Title = styled.h1`
   @media screen and (min-width: 1440px) {
     font-size: calc(7rem);
   }
-`;
+`

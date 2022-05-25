@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   z-index: 2;
-`;
+`
 
 export const StyledNavbar = styled.nav`
   max-width: 1440px;
@@ -26,7 +26,7 @@ export const StyledNavbar = styled.nav`
     padding: 0 2rem;
     justify-content: space-between;
   }
-`;
+`
 
 export const StyledName = styled.p`
   background-color: #1d1d1e;
@@ -44,11 +44,11 @@ export const StyledName = styled.p`
   @media screen and (min-width: 420px) {
     display: inline;
   }
-`;
+`
 
 export const StyledMenu = styled.ul`
   display: flex;
-`;
+`
 
 export const StyledMenuItem = styled.li`
   color: #ffffff;
@@ -69,4 +69,4 @@ export const StyledMenuItem = styled.li`
   span {
     white-space: nowrap;
   }
-`;
+`

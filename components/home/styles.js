@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const TotalContainer = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const TotalContainer = styled.div`
   @media screen and (min-width: 768px) {
     padding: 0 2rem;
   }
-`;
+`
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -24,14 +24,14 @@ export const HomeContainer = styled.div`
     flex: 2;
     align-items: flex-start;
   }
-`;
+`
 
 export const StyledH1 = styled.h1`
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 0;
   font-size: 3rem;
-  line-height: 3.7rem;
-  letter-spacing: -1px;
+  line-height: 1.5;
+  letter-spacing: 2px;
   color: #ffffff;
   width: 340px;
   text-align: center;
@@ -52,7 +52,7 @@ export const StyledH1 = styled.h1`
     font-size: 8rem;
     line-height: 9rem;
   }
-`;
+`
 
 export const ImageContainer = styled.div`
   width: 0;
@@ -64,4 +64,4 @@ export const ImageContainer = styled.div`
     width: 30%;
     height: 30%;
   }
-`;
+`
