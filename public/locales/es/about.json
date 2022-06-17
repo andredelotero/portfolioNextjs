@@ -9,7 +9,7 @@
   "skillsList": "HTML, CSS, JavaScript, React, NextJS, JSX, Bootstrap, Sass, Tailwind, Styled Components, VSCode, Git Github, Figma, Trello, Slack.",
   "thisSite": "Sobre este sitio:",
   "thisSiteDescription": "Este sitio fue construido utilizando: NextJs (modo SSG), Styled Components (para estilado) y Next-i18next (para internacionalizacion en / es). Hosteado en Vercel. Puntuacion Google Lighthouse: 98%.",
-  "projects": "Projectos",
+  "projects": "Proyectos",
   "eCommerceJsTitle": "Ecommerce JS",
   "eCommerceJsDescription": "El segundo proyecto que hice durante mi carrera de desarrollo Front-End. Proyecto realizado utilizando: HTML, Javascript y SASS",
   "eCommerceReactTitle": "Ecommerce React",
