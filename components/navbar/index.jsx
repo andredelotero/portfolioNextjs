@@ -1,4 +1,4 @@
-import ReactScroll from 'react-scroll'
+import { Link } from 'react-scroll'
 import { useTranslation } from 'next-i18next'
 import {
   Container,
@@ -20,15 +20,16 @@ const Navbar = () => {
             const offsetPath = path === 'home' ? -130 : 0
             return (
               <StyledMenuItem key={name}>
-                <ReactScroll.Link
+                <Link
                   to={path}
                   spy
                   smooth
                   offset={offsetPath}
                   duration={500}
+                  role="link"
                 >
                   <span>{t(name)}</span>
-                </ReactScroll.Link>
+                </Link>
               </StyledMenuItem>
             )
           })}

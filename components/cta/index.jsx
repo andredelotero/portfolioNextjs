@@ -1,4 +1,4 @@
-import ReactScroll from 'react-scroll'
+import { Link } from 'react-scroll'
 import { useTranslation } from 'next-i18next'
 
 import { StyledCta } from './styles'
@@ -6,8 +6,8 @@ import { StyledCta } from './styles'
 export const CTA = () => {
   const { t } = useTranslation('common')
   return (
-    <ReactScroll.Link to="contact" spy smooth offset={0} duration={500}>
+    <Link to="contact" spy smooth offset={0} duration={500} role="link">
       <StyledCta>{t('contactMe')}</StyledCta>
-    </ReactScroll.Link>
+    </Link>
   )
 }
