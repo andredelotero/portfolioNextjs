@@ -16,7 +16,7 @@ export const TitleContainer = styled.div`
     font-size: calc(1.4rem + 10vw);
     font-weight: 500;
     @media screen and (min-width: 1440px) {
-      font-size: calc(10rem);
+      font-size: 10rem;
     }
   }
   @media screen and (min-width: 768px) {
@@ -33,6 +33,6 @@ export const H1Title = styled.h1`
   color: #fff;
   font-weight: 500;
   @media screen and (min-width: 1440px) {
-    font-size: calc(7rem);
+    font-size: 7rem;
   }
 `
