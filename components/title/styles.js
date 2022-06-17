@@ -4,9 +4,11 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: fit-content;
+  white-space: nowrap;
   position: relative;
   height: auto;
+  border-bottom: 1px solid #8b63d4;
   ::before {
     content: '${(props) => props.backgroundTitle}';
     text-transform: uppercase;

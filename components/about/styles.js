@@ -86,7 +86,7 @@ export const AboutDetail = styled.div`
   @media screen and (min-width: 1024px) {
     span {
       font-size: 1.2rem;
-      line-height: 1.8rem;
+      line-height: 2rem;
     }
   }
 `
