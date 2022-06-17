@@ -6,7 +6,7 @@
   "intro": "Soy un desarrollador Front-End, nacido en Brasil, viviendo en Argentina.",
   "description": "Me importa la velocidad del sitio, la experiencia del usuario, la compatibilidad entre navegadores y, por supuesto, su responsividad (siempre empiezo proyectos con un enfoque mobile first)",
   "skills": "Habilidades y herramientas",
-  "skillsList": "HTML, CSS, JavaScript, React, NextJS, JSX, Bootstrap, Sass, Tailwind, Styled Components, VSCode, Git Github, Figma, Trello, Slack.",
+  "skillsList": "HTML, CSS, JavaScript, React, NextJS, JSX, Bootstrap, Sass, Tailwind, Styled Components, VSCode, Git, Github, Figma, Trello, Slack.",
   "thisSite": "Sobre este sitio:",
   "thisSiteDescription": "Este sitio fue construido utilizando: NextJs (modo SSG), Styled Components (para estilado) y Next-i18next (para internacionalizacion en / es). Hosteado en Vercel. Puntuacion Google Lighthouse: 98%.",
   "projects": "Proyectos",
