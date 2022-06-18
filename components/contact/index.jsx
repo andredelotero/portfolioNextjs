@@ -19,7 +19,7 @@ const Contact = () => {
           {contacts.map(({ photo, alt, link }) => {
             return (
               <LogoContainer key={alt}>
-                <Link href={link} as={link}>
+                <Link href={link}>
                   <a target="_blank">
                     <Image
                       src={photo}

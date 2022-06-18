@@ -6,15 +6,7 @@ import { StyledCta } from './styles'
 export const CTA = () => {
   const { t } = useTranslation('common')
   return (
-    <Link
-      to="contact"
-      as="contact"
-      spy
-      smooth
-      offset={0}
-      duration={500}
-      role="link"
-    >
+    <Link to="contact" spy smooth offset={0} duration={500} role="link">
       <StyledCta>{t('contactMe')}</StyledCta>
     </Link>
   )

@@ -21,7 +21,6 @@ const Navbar = () => {
             return (
               <StyledMenuItem key={name}>
                 <Link
-                  as={path}
                   to={path}
                   spy
                   smooth
