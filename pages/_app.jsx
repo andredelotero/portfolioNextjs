@@ -1,9 +1,6 @@
 import { appWithTranslation } from 'next-i18next'
 import { createGlobalStyle } from 'styled-components'
 import './styles.css'
-export const config = {
-  amp: true,
-}
 const GlobalStyle = createGlobalStyle`
     @font-face {
     font-family: 'Montserrat';

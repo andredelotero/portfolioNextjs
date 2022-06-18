@@ -5,7 +5,9 @@ const Navbar = dynamic(() => import('../components/navbar'))
 const Home = dynamic(() => import('../components/home'))
 const About = dynamic(() => import('../components/about'))
 const Contact = dynamic(() => import('../components/contact'))
-
+export const config = {
+  amp: true,
+}
 export default function Index() {
   return (
     <>
