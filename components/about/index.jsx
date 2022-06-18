@@ -54,7 +54,7 @@ const About = () => {
                   <ProjectTitle>{t(title)}</ProjectTitle>
                   <ProjectDescription>{t(description)}</ProjectDescription>
                   <span>
-                    <Link href={link}>
+                    <Link href={link} as={link}>
                       <a target="_blank">{link}</a>
                     </Link>
                   </span>

@@ -17,7 +17,7 @@ export default function Index() {
           name="description"
           content="I am a Frontend developer living in Mar del Plata, Argentina. I care about site speed, user experience, cross browser compatibility, and of course, responsiveness (I always start projects in a mobile-first approach)."
         />
-        {/* <link rel="icon" href="/favicon.png" as="icon" /> */}
+        <link rel="icon" href="/favicon.png" as="icon" />
       </Head>
       <Navbar />
       <Home />
