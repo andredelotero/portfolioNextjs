@@ -31,31 +31,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
-            href="/fonts/montserrat-v24-latin-regular.woff"
-            rel="preload"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
-            href="/fonts/montserrat-v24-latin-500.woff"
-            rel="preload"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
-            href="/fonts/montserrat-v24-latin-300.woff"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
-            href="/fonts/montserrat-v24-latin-700.woff"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700"
+            rel="stylesheet"
           />
         </Head>
         <body>
