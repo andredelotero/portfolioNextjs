@@ -14,7 +14,7 @@ import { MainTitle } from '../title'
 const Home = () => {
   const { t } = useTranslation('home')
   return (
-    <section id="home">
+    <section id="home" style={{ paddingTop: '1px' }}>
       <TotalContainer>
         <HomeContainer>
           <MainTitle title={t('title')} bgTitle={t('subTitle')} />
