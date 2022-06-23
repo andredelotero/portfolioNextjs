@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import dynamic from 'next/dynamic'
 const Navbar = dynamic(() => import('../components/navbar'), {
-  suspense: true,
+  suspense: false,
 })
 const Home = dynamic(() => import('../components/home'), {
   suspense: true,
@@ -26,10 +26,14 @@ export default function Index() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Suspense fallback={`Loading...`}>
-        <Navbar />
+      <Navbar />
+      <Suspense fallback={<h3 style={{ color: '#ff0000' }}>Loading...</h3>}>
         <Home />
+      </Suspense>
+      <Suspense fallback={<h3 style={{ color: '#ff0000' }}>Loading...</h3>}>
         <About />
+      </Suspense>
+      <Suspense fallback={<h3 style={{ color: '#ff0000' }}>Loading...</h3>}>
         <Contact />
       </Suspense>
     </>
